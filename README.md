@@ -11,7 +11,7 @@
 * Bootstrap
 * Test Runners: Karma
 * Packaging, Build tools: Webpack, npm
-* Source version control system: GIT
+* Source version control system: Git
 
 ## Introduction
 
