@@ -1,0 +1,21 @@
+.home {
+  .navbar-collapse {
+    padding: 5% 0;
+    max-height: none;
+  }
+  .sidebar-nav ul {
+    float: none;
+    display: block;
+    width: 100%;
+    margin:0 auto;
+  }
+  .sidebar-nav li {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .sidebar-nav li a {
+    font-size: 26px;
+    margin: 26px;
+  }
+}
