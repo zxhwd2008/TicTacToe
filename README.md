@@ -20,7 +20,7 @@
 Download the project to your local environment
 
 ```shell
-npm install
+npm install --ignore-scripts
 ```
 
 ```shell
