@@ -7,11 +7,11 @@
 * Immutable JS
 * React Router
 * Redux Saga
-* CSS compilers: **Scss**
-* CSS Frameworks: **Bootstrap**
-* Test Runners: **Karma**
-* Packaging, Build tools: **Webpack, npm**
-* Source version control system: **GIT**
+* Scss
+* Bootstrap
+* Test Runners: Karma
+* Packaging, Build tools: Webpack, npm
+* Source version control system: GIT
 
 ## Introduction
 
@@ -38,7 +38,7 @@ Now you can visit: http://localhost:8080
 npm run lint
 ```
 
-### Packaging
+### Build for production
 
 ```shell
 npm run build
