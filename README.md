@@ -32,7 +32,7 @@ npm start
 ```
 Now you can visit: http://localhost:8080
 
-### ESLINT
+### ESLint
 
 ```shell
 npm run lint
