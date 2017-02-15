@@ -1,5 +1,4 @@
 import { connect } from 'react-redux'
-import { Promise } from 'es6-promise'
 import { Game } from '../routes/Game'
 import {
   updateField,

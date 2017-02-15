@@ -12,8 +12,8 @@ export default (
   <Route path="/" component={RootContainer}>
     <IndexRoute component={Home} />
 
-    <Route path="/game" component={ GameContainer } />
-    <Route path="/board" component={ LeaderBoardContainer } />
+    <Route path="/game" component={GameContainer} />
+    <Route path="/board" component={LeaderBoardContainer} />
 
     <Redirect from="*" to="/" />
   </Route>

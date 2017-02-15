@@ -4,7 +4,7 @@ import { ActionType } from '../actions'
 
 
 function* gameOverSideEffects() {
-  browserHistory.push('/board')
+  yield browserHistory.push('/board')
 }
 
 export function* watchGameRequest() {

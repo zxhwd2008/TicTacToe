@@ -12,11 +12,10 @@ export class LeaderBoard extends React.Component {
     let result = null
     if (this.props.winner && this.props.winner === -1) {
       result = 'Tie Game'
-    }
-    else if (this.props.players && this.props.winner !== null && this.props.winner !== -1) {
+    } else if (this.props.players && this.props.winner !== null && this.props.winner !== -1) {
       result = 'Player ' + this.props.players[this.props.winner].name + ' Won'
     }
-    return(
+    return (
       <div className={classnames('container', styles.board)}>
         <div className="row">
           {result ?
@@ -59,4 +58,10 @@ export class LeaderBoard extends React.Component {
       </div>
     )
   }
+}
+
+LeaderBoard.propTypes = {
+  updateField: React.PropTypes.func,
+  winner: React.PropTypes.number,
+  players: React.PropTypes.array,
 }

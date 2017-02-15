@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link, IndexLink } from 'react-router'
-import classnames from 'classnames'
-import styles from './header.scss'
+import { IndexLink } from 'react-router'
 
 export const Header = () =>
   <header className="clearfix">
@@ -18,7 +16,9 @@ export const Header = () =>
           <li>
             <a
               href="https://github.com/zxhwd2008"
-              target="_blank">
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Created by Xiaohang Zou
             </a>
           </li>

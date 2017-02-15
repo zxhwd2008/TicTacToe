@@ -1,11 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router'
 import classnames from 'classnames'
 import styles from './footer.scss'
 
 export const Footer = () =>
   <footer className={styles.footer}>
     <div className="container">
-      <p className={classnames(styles['text-muted'], 'text-center')}>©{new Date().getFullYear()} Xiaohang Zou</p>
+      <p className={classnames(styles['text-muted'], 'text-center')}>
+        ©{new Date().getFullYear()} Xiaohang Zou
+      </p>
     </div>
   </footer>

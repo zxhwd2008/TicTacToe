@@ -16,5 +16,5 @@ export const updateField = (field, value) => ({
 })
 
 export const gameOver = () => ({
-  type: ActionType.GAME.GAME_OVER
+  type: ActionType.GAME.GAME_OVER,
 })

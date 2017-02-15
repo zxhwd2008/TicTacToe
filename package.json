@@ -1,14 +1,14 @@
 {
   "name": "TicTacToe",
   "version": "0.0.1",
-  "main": "server.js",
+  "main": "server.dev.js",
   "author": "Xiaohang",
   "scripts": {
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
     "build": "npm run clean && npm run build:webpack",
     "lint": "eslint components/** containers/** modules/** services/** routes/**",
-    "start": "node server.js",
+    "start": "node server.dev.js",
     "prepublish": "npm run lint && npm run build"
   },
   "dependencies": {

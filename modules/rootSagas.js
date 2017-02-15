@@ -3,6 +3,6 @@ import { watchGameRequest } from './Game/GameSagas'
 
 export default function* rootSagas() {
   yield [
-    fork(watchGameRequest)
+    fork(watchGameRequest),
   ]
 }
