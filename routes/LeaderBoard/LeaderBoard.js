@@ -4,7 +4,7 @@ import { IndexLink } from 'react-router'
 import styles from './leader-board.scss'
 
 export class LeaderBoard extends React.Component {
-  clearWinner() {
+  componentWillUnmount() {
     this.props.updateField('winner', null)
   }
 
