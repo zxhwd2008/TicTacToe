@@ -32,6 +32,12 @@ npm start
 ```
 Now you can visit: http://localhost:8080
 
+### Unit Test
+
+```shell
+npm run test
+```
+
 ### ESLint
 
 ```shell
